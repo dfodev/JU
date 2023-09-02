@@ -9,10 +9,9 @@ simButtons.forEach(function (simButton) {
     clickCount++;
 
     if (clickCount === 1) {
-      h2.textContent = 'Me te tirar do sério?';
+      h2.textContent = 'Fio terra hein? KKKKKKKKKKKKKK';
     } else if (clickCount === 2) {
-      h2.textContent =
-        'Aceita namorar comigo e me provocar a ter os melhores sorrisos com voce?';
+      h2.textContent = 'Zoas amor, enfim, aceitas a ser a minha namorada? 🥰';
     } else if (clickCount === 3) {
       h2.textContent = 'UUUUUHHHUUUUUUUUUUU🥰🥰😍😍 ';
       // Após a terceira vez que "Sim" é clicado, aguarde 2 segundos e, em seguida, abra o link
