@@ -4,36 +4,30 @@
   position: relative; /* Para posicionamento relativo das imagens */
 }
 
-.img {
-  width: 100px; /* Largura das imagens (ajuste conforme necessário) */
-  height: 100px; /* Altura das imagens (ajuste conforme necessário) */
-  position: absolute; /* Para posicionamento absoluto das imagens */
-}
-
 .top-left {
-  top: 0;
-  left: 0;
+  top: 15%;
+  left: 10%;
 }
 
 .top-right {
-  top: 0;
-  right: 0;
+  top: 15%;
+  right: 10%;
 }
 
 .bottom-left {
-  bottom: 0;
-  left: 0;
+  bottom: 15%;
+  left: 10%;
 }
 
 .bottom-right {
-  bottom: 0;
-  right: 0;
+  bottom: 15%;
+  right: 10%;
 }
 
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
@@ -76,8 +70,10 @@ body {
   border-radius: 6px;
 }
 
-.img{
-  width: auto;
-  height: auto;
-  max-width: 100px;
-} 
+.img {
+  width: 100px; /* Largura das imagens (ajuste conforme necessário) */
+  height: 100px; /* Altura das imagens (ajuste conforme necessário) */
+  position: absolute; /* Para posicionamento absoluto das imagens */
+  margin-top: -50px; /* Ajusta a margem superior para centralizar verticalmente */
+  margin-left: -50px; /* Ajusta a margem esquerda para centralizar horizontalmente */
+}
